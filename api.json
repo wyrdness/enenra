@@ -1,0 +1,294 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/enenra",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "enenra",
+    "name": "Enenra",
+    "aliases": [
+      {
+        "name": "煙々羅",
+        "language": "Japanese",
+        "region": "Japan",
+        "meaning": "smoke spirit"
+      },
+      {
+        "name": "煙羅煙羅",
+        "language": "Japanese",
+        "region": "Japan",
+        "meaning": "smoke upon smoke"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Japanese Yokai",
+    "tags": [
+      "yokai",
+      "japanese",
+      "spirit",
+      "smoke",
+      "intangible",
+      "shapeshifter",
+      "elemental"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A Japanese smoke spirit or yokai made entirely of smoke and vapor with no solid body. Generally neutral in nature and visible only to the pure-hearted or those fated to die.",
+      "full": "The Enenra is a relatively obscure Japanese yokai that takes the form of smoke or vapor. Unlike most yokai, it has no solid physical form and exists entirely as smoke, constantly shifting and changing shape. The Enenra typically manifests in smoke rising from wood fires, bonfires, or fireplaces, sometimes taking vague human shapes within the smoke. According to folklore, the Enenra is generally neutral rather than malevolent, and can only be seen by individuals who are pure of heart or those who are fated to die soon. The creature embodies the ephemeral and impermanent nature of existence, serving as a living metaphor for the transient quality of life itself. In modern popular culture, the Enenra has gained recognition through the Mortal Kombat character Smoke, who possesses smoke-based powers inspired by this yokai."
+    },
+    "etymology": {
+      "origin": "From Japanese folklore. The name derives from Japanese words for smoke and mist.",
+      "meaning": "'En' (煙) means smoke, with 'enra' suggesting billowing or swirling patterns of smoke",
+      "first_use": "Edo period yokai literature"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Elemental Spirit",
+      "variant": "Japanese"
+    },
+    "related_phenomena": [
+      {
+        "id": "elemental-spirits",
+        "name": "Elemental Spirits",
+        "relationship": "similar",
+        "description": "Spirits embodying natural elements"
+      },
+      {
+        "id": "will-o-wisp",
+        "name": "Will-o'-the-Wisp",
+        "relationship": "similar",
+        "description": "Atmospheric phenomenon spirits"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "form": "Composed entirely of smoke and vapor",
+      "solidity": "No solid body, completely intangible",
+      "features": [
+        {
+          "feature": "Smoke composition",
+          "description": "Body made of smoke, vapor, and mist",
+          "frequency": "always"
+        },
+        {
+          "feature": "Shifting shape",
+          "description": "Constantly changing form, never stable",
+          "frequency": "always"
+        },
+        {
+          "feature": "Humanoid suggestions",
+          "description": "Sometimes takes vague human shape within smoke",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Formlessness",
+          "description": "Often appears as shapeless smoke patterns",
+          "frequency": "common"
+        }
+      ],
+      "manifestation_locations": [
+        "Wood fires",
+        "Bonfires",
+        "Fireplaces",
+        "Smoke from burning materials"
+      ],
+      "morphology": "Intangible smoke entity with no fixed form, existing as patterns and shapes within smoke and vapor"
+    },
+    "abilities": [
+      {
+        "ability": "Intangibility",
+        "description": "Completely incorporeal, cannot be physically harmed or touched",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Shapeshifting",
+        "description": "Can alter form within smoke, sometimes suggesting human shapes",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Selective visibility",
+        "description": "Can only be seen by pure-hearted individuals or those fated to die",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Smoke manifestation",
+        "description": "Appears in smoke from fires, particularly wood smoke",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "when fires burn",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "wood fires",
+        "bonfires",
+        "fireplaces",
+        "areas with smoke"
+      ],
+      "diet": "None (smoke spirit)",
+      "patterns": [
+        "Manifests in fire smoke",
+        "Generally passive observer",
+        "Does not actively harm humans",
+        "Represents impermanence and transience"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore, no specific geographic concentration within Japan.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan (folklore)"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Edo period",
+        "circa": true,
+        "source": "Yokai literature and illustrated scrolls"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Japanese yokai tradition, particularly Edo period yokai literature. Represents natural phenomena and the ephemeral nature of existence.",
+      "earliest_accounts": "Edo period yokai encyclopedias and illustrated scrolls.",
+      "folklore_connections": "Part of broader tradition of elemental and nature spirits in Japanese folklore."
+    },
+    "timeline": [
+      {
+        "date": "1600-1868",
+        "event": "Edo period yokai literature",
+        "significance": "Enenra documented in yokai encyclopedias and illustrations",
+        "source": "Various yokai collections"
+      }
+    ],
+    "modern_era": "The Enenra remains a relatively obscure yokai but gained modern recognition through video games (particularly Mortal Kombat's Smoke character) and anime/manga featuring smoke-based powers and smoke spirits."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Edo period yokai lore",
+        "Elemental spirit traditions",
+        "Fire and smoke folklore"
+      ],
+      "beliefs": "The Enenra embodies the concept of impermanence (mujō) central to Japanese Buddhist philosophy. Its smoke form represents the transient, ever-changing nature of existence.",
+      "symbolism": [
+        "Impermanence and transience",
+        "The ephemeral nature of life",
+        "Smoke and mirrors - illusion",
+        "Intangibility and formlessness"
+      ]
+    },
+    "japanese_cultural_context": {
+      "significance": "Though obscure, the Enenra exemplifies Japanese appreciation for subtle, ephemeral phenomena and the philosophical concept of impermanence (mujō).",
+      "sensitivity_note": "The Enenra is part of traditional Japanese cultural heritage. Approach with respect for Japanese folklore traditions.",
+      "philosophical_connections": "Relates to Buddhist concepts of impermanence and the transient nature of all things"
+    },
+    "popular_culture": {
+      "games": [
+        "Mortal Kombat series (Smoke character inspired by Enenra)",
+        "Various Japanese RPGs and games"
+      ],
+      "anime_manga": [
+        "Various yokai-themed manga and anime",
+        "Characters with smoke-based abilities"
+      ],
+      "other": [
+        "Yokai encyclopedias",
+        "Traditional Japanese art",
+        "Modern interpretations in various media"
+      ]
+    }
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "Personification of smoke",
+        "description": "The Enenra represents the personification of smoke itself, giving form and consciousness to an insubstantial element",
+        "evidence_cited": ["Smoke-based form", "Manifestation in fire smoke"]
+      },
+      {
+        "name": "Death omen",
+        "description": "Visibility to those fated to die suggests role as psychopomp or death omen",
+        "evidence_cited": ["Only visible to pure-hearted or dying", "Association with transience"]
+      }
+    ],
+    "philosophical": [
+      {
+        "name": "Metaphor for impermanence",
+        "description": "Enenra embodies Buddhist concept of mujō (impermanence) - constantly changing, never solid, ultimately insubstantial",
+        "evidence_cited": ["Smoke form never maintains shape", "Intangible nature", "Ephemeral existence"]
+      }
+    ],
+    "naturalistic": [
+      {
+        "name": "Pareidolia in smoke",
+        "description": "Human tendency to see faces and forms in smoke patterns",
+        "evidence_cited": ["Smoke naturally forms shifting patterns", "Human pattern recognition"]
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-yokai",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "yokai-attack",
+      "type": "book",
+      "title": "Yokai Attack! The Japanese Monster Survival Guide",
+      "authors": ["Hiroko Yoda", "Matt Alt"],
+      "publication": "Tuttle Publishing",
+      "date": "2008",
+      "isbn": "978-4805310359"
+    },
+    {
+      "id": "mizuki-yokai",
+      "type": "book",
+      "title": "Shigeru Mizuki's Yokai Encyclopedia",
+      "authors": ["Shigeru Mizuki"],
+      "publication": "Drawn & Quarterly",
+      "date": "2016"
+    }
+  ]
+}
