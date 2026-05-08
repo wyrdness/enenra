@@ -1,238 +1,159 @@
-# Enenra (煙々羅)
+# Enenra
 
-> *"Like smoke upon the wind, here one moment, gone the next."*
+> A Japanese yōkai composed of smoke, said to dwell in bonfires and to be visible only to the pure of heart; first illustrated by Toriyama Sekien in the 1781 yōkai compendium Konjaku Hyakki Shūi.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-folklore-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `enenra` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Japanese Yokai / Elemental Spirit |
-| **First Recorded** | Edo period (1600-1868) |
-| **Primary Region** | Japan |
-| **Status** | Traditional folklore |
+| **Subcategory** | Yōkai of smoke |
+| **First recorded** | 1781-01-01 |
+| **Primary range** | Japanese folklore |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The Enenra is a relatively obscure Japanese yokai that takes the form of smoke or vapor. Unlike most yokai, it has **no solid physical form** and exists entirely as smoke, constantly shifting and changing shape.
-
-The Enenra typically manifests in smoke rising from wood fires, bonfires, or fireplaces, sometimes taking vague human shapes within the smoke. According to folklore, the Enenra is generally **neutral** rather than malevolent, and can only be seen by individuals who are **pure of heart** or those who are **fated to die soon**.
-
-The creature embodies the ephemeral and impermanent nature of existence, serving as a living metaphor for the transient quality of life itself—perfectly aligned with the Buddhist concept of *mujō* (impermanence).
+Enenra (煙々羅) is a yōkai of Japanese folklore composed of smoke and darkness. Its name uses the kanji for 'smoke' (煙) doubled and joined with the character for thin gauze fabric (羅), evoking a spirit that drifts like sheer cloth on the air. Enenra reside in bonfires and similar wood-fires; when they emerge they take a vague humanoid shape within the rising smoke. They were introduced into the canonical yōkai bestiary by Toriyama Sekien in his 'Konjaku Hyakki Shūi' (今昔百鬼拾遺), the third book of his Gazu Hyakki Yagyō tetralogy, published c. 1781. Sekien's work appears to be loosely based on a passage in 'Tsurezuregusa' (the 14th-century Yoshida Kenkō essay collection) describing the smoke from summer mosquito-fires. According to subsequent commentary, an enenra can only be seen by those who are pure of heart. Two types are distinguished in later folklore literature: those born as enenra and (less commonly) the spirits of dead humans transformed into them. The enenra is generally treated as neutral or peaceful rather than malevolent.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 煙々羅 | Japanese (kanji) | Literal 'gauzy-fabric of smoke' |
+| Enenra | Japanese (rōmaji) |  |
 
-### Primary Name
-- **Enenra (煙々羅 / 煙羅煙羅)** — From Japanese: 'En' (煙) means smoke, with 'enra' suggesting billowing or swirling patterns of smoke. Literally "smoke upon smoke."
+## Etymology
 
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Elemental Spirit
-└── Variant: Japanese
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Elemental Spirits](/elemental-spirits) | Similar | Spirits embodying natural elements |
-| [Will-o'-the-Wisp](/will-o-wisp) | Similar | Atmospheric phenomenon spirits |
+- **Origin**: Japanese, coined or transmitted by Toriyama Sekien (1712–1788) in the late 18th century.
+- **Meaning**: The kanji combine 'smoke' (煙) reduplicated with the character 羅, meaning a thin gauze fabric: 'thin-fabric of smoke', a poetic image of a spirit drifting like sheer cloth.
+- **First use**: Konjaku Hyakki Shūi by Toriyama Sekien, c. 1781.
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Yōkai (general)](../yokai/) — _superset_: Broad Japanese category of supernatural beings to which Enenra belongs.
+- [Tsukumogami](../tsukumogami/) — _related_: Yōkai born from the long use of objects; conceptually adjacent in Sekien's compendia.
+- [Rokurokubi](../rokurokubi/) — _similar_: Other Edo-period yōkai illustrated by Sekien.
 
-### Physical Description
+---
+## Physical Description
 
-**Form**: Composed entirely of smoke and vapor
-**Solidity**: No solid body whatsoever—completely intangible
+- **Coloration**: grey, black, shifting smoke colours
+- **Morphology**: A non-corporeal being made of smoke; takes on transient humanoid forms but never possesses solid matter.
+
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Smoke composition | Body made of smoke, vapor, and mist | Always |
-| Shifting shape | Constantly changing form, never stable | Always |
-| Humanoid suggestions | Sometimes takes vague human shape in smoke | Occasional |
-| Formlessness | Often appears as shapeless smoke patterns | Common |
+|---|---|---|
+| Body of smoke | The enenra has no solid body; it is composed entirely of smoke, capable of taking momentary humanoid forms. | always |
+| Vague humanoid shape | When emerging from a fire it can resolve into the silhouette of a human figure within the rising smoke. | common |
+| Visible only to the pure-hearted | Folklore states that only those of pure heart can perceive an enenra clearly. | common |
 
-### Manifestation Locations
-- Wood fires
-- Bonfires
-- Fireplaces
-- Any smoke from burning materials
+## Reported Abilities
 
-### Reported Abilities
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Smoke composition | The yōkai is itself made of smoke and can pass freely with the smoke of fires. | always | folklore |
+| Selective visibility | Visible only to those of pure heart, and according to some later commentary, to those soon to die. | common | folklore |
+| Bonfire residence | Lives within bonfires and other wood-fires, emerging with the rising smoke. | always | folklore |
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Intangibility | Completely incorporeal, cannot be harmed or touched | Folklore |
-| Shapeshifting | Can alter form within smoke, suggesting human shapes | Folklore |
-| Selective visibility | Only visible to pure-hearted or those fated to die | Folklore |
-| Smoke manifestation | Appears in fire smoke, particularly wood smoke | Folklore |
+## Behavior
 
-### Behavioral Patterns
-
-- **Activity Period**: When fires burn
-- **Disposition**: Neutral (not malevolent)
-- **Social Structure**: Solitary
-- **Habitat Preference**: Wood fires, bonfires, fireplaces
-- **Diet**: None (smoke spirit)
-
-**Behavioral Notes**:
-- Manifests in fire smoke
-- Generally passive observer
-- Does not actively harm humans
-- Represents impermanence and transience
+- **Activity**: variable
+- **Disposition**: neutral
+- **Social structure**: solitary
+- **Habitat**: bonfires, fireplaces and hearths, summer mosquito-fires, tobacco smoke (in later folklore)
 
 ---
+## Distribution
 
-## Folklore & Symbolism
+Japanese folklore; the figure originates in Edo-period yōkai literature and is part of the contemporary national Japanese supernatural canon.
 
-### Cultural Significance
-
-> ⚠️ **Cultural Sensitivity Note**: The Enenra is part of traditional Japanese cultural heritage. Approach with respect for Japanese folklore traditions.
-
-**Symbolism**:
-- **Impermanence (mujō)**: Embodies Buddhist concept of constant change
-- **Ephemeral nature of life**: Smoke here one moment, dispersed the next
-- **Smoke and mirrors**: Illusion and intangibility
-- **Formlessness**: Freedom from fixed existence
-
-### Philosophical Connections
-
-The Enenra perfectly exemplifies the Buddhist concept of **mujō (無常)** or impermanence:
-- Constantly changing, never maintaining the same shape
-- Intangible and insubstantial
-- Exists but cannot be grasped
-- Ultimately disperses and vanishes
-
-### Visibility and the Pure of Heart
-
-According to tradition, the Enenra can only be seen by:
-1. **The pure of heart** — Those with spiritual clarity
-2. **Those fated to die** — As an omen or messenger
-
-This selective visibility adds to its mystique and suggests a deeper spiritual dimension to the yokai.
 
 ---
+## Historical Timeline
+
+| Date | Event | Significance |
+|---|---|---|
+| 1781-01-01 | Toriyama Sekien publishes 'Konjaku Hyakki Shūi' (今昔百鬼拾遺), introducing the Enenra in illustration and short text | Founding documentation of the figure |
+| 1788-01-01 | Death of Toriyama Sekien (1712–1788), author of the four Hyakki series including the volume that introduced Enenra | Closes the foundational period of the figure |
+| 2016-01-01 | Matt Alt and Hiroko Yoda publish 'Japandemonium Illustrated: The Yokai Encyclopedias of Toriyama Sekien' (Dover, 2016, ISBN 978-0486800356), making Sekien's work, including Enenra, available in English translation | Major English-language scholarly translation |
+
+## Evidence
+
+### Documentary
+
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Konjaku Hyakki Shūi | 1781 | Toriyama Sekien's illustrated yōkai compendium, the third book of his Gazu Hyakki Yagyō tetralogy, in which the Enenra is introduced. | verified |
+| Japandemonium Illustrated | 2016 | Annotated English translation of Sekien's four yōkai compendia, including the Enenra entry. | verified |
+
+---
+## Theories & Explanations
+
+### Paranormal / Cryptozoological
+
+**Yōkai of smoke** _(Edo-period yōkai literature)_
+
+Within Edo-period and modern yōkai discourse, the Enenra is treated as a real, if intangible, spirit native to bonfire smoke.
+
+### Skeptical
+
+**Sekien literary invention** _(Modern yōkai scholars (Alt & Yoda, 2016))_
+
+The Enenra is most plausibly a literary invention by Toriyama Sekien, loosely inspired by a passage in 'Tsurezuregusa' rather than by a pre-existing widespread folk tradition.
+
+**Pareidolia in smoke** _(Skeptical readers of yōkai folklore)_
+
+Apparent humanoid shapes in rising smoke are explained by ordinary perceptual pareidolia, codified into a stable folkloric figure by Sekien's illustration.
+
 
 ## Popular Culture
 
-### Modern Recognition
+**Literature**: Konjaku Hyakki Shūi — Toriyama Sekien (c. 1781); Japandemonium Illustrated: The Yokai Encyclopedias of Toriyama Sekien — Matt Alt & Hiroko Yoda (Dover, 2016)
 
-Though relatively obscure in traditional folklore, the Enenra has gained modern recognition:
+**Film / TV**: GeGeGe no Kitarō (Shigeru Mizuki manga and anime franchise) — uses Enenra-style yōkai
 
-**Video Games**:
-- **Mortal Kombat series**: The character "Smoke" is directly inspired by the Enenra, possessing smoke-based powers and intangibility
-- Various Japanese RPGs featuring smoke spirits
+**Games**: Touhou Project — features yōkai including Enenra-derived characters
 
-**Anime/Manga**:
-- Characters with smoke-based abilities
-- Yokai-themed series
-
-**Other Media**:
-- Yokai encyclopedias and illustrated guides
-- Traditional and modern Japanese art
-- Fantasy literature featuring elemental spirits
+**Other**: Reference summaries on Yokai.com and other yōkai-database sites
 
 ---
+## Research
 
-## Theories & Explanations
+### Researchers
 
-### Folkloric Interpretations
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Toriyama Sekien | Edo-period ukiyo-e artist and writer (1712–1788) | Author of the Gazu Hyakki Yagyō tetralogy and the canonical originator of the Enenra figure | 18th century |
+| Matt Alt | Author / translator | Co-translator of Sekien's yōkai compendia (Japandemonium Illustrated, 2016) | 2010s |
+| Hiroko Yoda | Author / translator | Co-translator of Sekien's yōkai compendia (Japandemonium Illustrated, 2016) | 2010s |
 
-1. **Personification of Smoke**
-   The Enenra represents smoke itself given consciousness and form, embodying the intangible element.
-
-2. **Death Omen**
-   Its visibility to those fated to die suggests a role as psychopomp or harbinger, marking the boundary between life and death.
-
-### Philosophical Interpretation
-
-**Metaphor for Impermanence**: The Enenra serves as a profound metaphor for the Buddhist teaching of mujō—the transient, ever-changing nature of all existence. Like smoke, life is:
-- Constantly shifting
-- Never solid or permanent
-- Beautiful in its ephemerality
-- Ultimately returning to emptiness
-
-### Naturalistic Explanation
-
-**Pareidolia in Smoke**: Humans have a natural tendency to see faces and forms in random patterns (pareidolia). The Enenra may originate from:
-- Smoke naturally forming shifting, suggestive shapes
-- Human pattern recognition interpreting smoke movements
-- Firelight creating dramatic visual effects in smoke
+Enenra is treated within the active academic field of Japanese yōkai studies (e.g. Michael Dylan Foster's 'Pandemonium and Parade' and 'The Book of Yōkai').
 
 ---
+## Sources
 
-## Related Yokai
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-- **Elemental Spirits** - Other nature-based yokai
-- **Will-o'-the-Wisp** - Atmospheric phenomena spirits
-- Other intangible yokai
 
----
+## How to Report a Sighting
 
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/enenra/main/api.json
-```
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*
-- Yoda, H. & Alt, M. (2008). *Yokai Attack! The Japanese Monster Survival Guide*
-- Mizuki, S. (2016). *Shigeru Mizuki's Yokai Encyclopedia*
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-*"Like smoke, we rise and disperse—ephemeral, intangible, beautiful."*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

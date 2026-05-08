@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/enenra",
     "maintainers": [
       {
@@ -16,111 +16,255 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "enenra",
-    "name": "Enenra (煙々羅)",
-    "aliases": [],
+    "name": "Enenra",
+    "aliases": [
+      { "name": "煙々羅", "language": "Japanese (kanji)", "meaning": "Literal 'gauzy-fabric of smoke'" },
+      { "name": "Enenra", "language": "Japanese (rōmaji)" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Elemental Spirit",
+    "subcategory": "Yōkai of smoke",
     "tags": [
-      "folklore",
-      "mythology"
+      "yokai",
+      "japan",
+      "smoke",
+      "edo-period",
+      "toriyama-sekien",
+      "hyakki",
+      "intangible-spirit"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Enenra is a relatively obscure Japanese yokai that takes the form of smoke or vapor.",
-      "full": "The Enenra is a relatively obscure Japanese yokai that takes the form of smoke or vapor. Unlike most yokai, it has **no solid physical form** and exists entirely as smoke, constantly shifting and changing shape. The Enenra typically manifests in smoke rising from wood fires, bonfires, or fireplaces, sometimes taking vague human shapes within the smoke. According to folklore, the Enenra is generally **neutral** rather than malevolent, and can only be seen by individuals who are **pure of heart** or those who are **fated to die soon**. The creature embodies the ephemeral and impermanent nature of existence, serving as a living metaphor for the transient quality of life itself—perfectly aligned with the Buddhist concept of *mujō* (impermanence)."
+      "summary": "A Japanese yōkai composed of smoke, said to dwell in bonfires and to be visible only to the pure of heart; first illustrated by Toriyama Sekien in the 1781 yōkai compendium Konjaku Hyakki Shūi.",
+      "full": "Enenra (煙々羅) is a yōkai of Japanese folklore composed of smoke and darkness. Its name uses the kanji for 'smoke' (煙) doubled and joined with the character for thin gauze fabric (羅), evoking a spirit that drifts like sheer cloth on the air. Enenra reside in bonfires and similar wood-fires; when they emerge they take a vague humanoid shape within the rising smoke. They were introduced into the canonical yōkai bestiary by Toriyama Sekien in his 'Konjaku Hyakki Shūi' (今昔百鬼拾遺), the third book of his Gazu Hyakki Yagyō tetralogy, published c. 1781. Sekien's work appears to be loosely based on a passage in 'Tsurezuregusa' (the 14th-century Yoshida Kenkō essay collection) describing the smoke from summer mosquito-fires. According to subsequent commentary, an enenra can only be seen by those who are pure of heart. Two types are distinguished in later folklore literature: those born as enenra and (less commonly) the spirits of dead humans transformed into them. The enenra is generally treated as neutral or peaceful rather than malevolent."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese, coined or transmitted by Toriyama Sekien (1712–1788) in the late 18th century.",
+      "meaning": "The kanji combine 'smoke' (煙) reduplicated with the character 羅, meaning a thin gauze fabric: 'thin-fabric of smoke', a poetic image of a spirit drifting like sheer cloth.",
+      "first_use": "Konjaku Hyakki Shūi by Toriyama Sekien, c. 1781."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Elemental Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yōkai",
+      "subtype": "Elemental / smoke spirit",
+      "variant": "Edo-period Japanese folklore"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "yokai", "name": "Yōkai (general)", "relationship": "superset", "description": "Broad Japanese category of supernatural beings to which Enenra belongs." },
+      { "id": "tsukumogami", "name": "Tsukumogami", "relationship": "related", "description": "Yōkai born from the long use of objects; conceptually adjacent in Sekien's compendia." },
+      { "id": "rokurokubi", "name": "Rokurokubi", "relationship": "similar", "description": "Other Edo-period yōkai illustrated by Sekien." }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["grey", "black", "shifting smoke colours"],
+      "features": [
+        { "feature": "Body of smoke", "description": "The enenra has no solid body; it is composed entirely of smoke, capable of taking momentary humanoid forms.", "frequency": "always" },
+        { "feature": "Vague humanoid shape", "description": "When emerging from a fire it can resolve into the silhouette of a human figure within the rising smoke.", "frequency": "common" },
+        { "feature": "Visible only to the pure-hearted", "description": "Folklore states that only those of pure heart can perceive an enenra clearly.", "frequency": "common" }
+      ],
+      "morphology": "A non-corporeal being made of smoke; takes on transient humanoid forms but never possesses solid matter."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Smoke composition", "description": "The yōkai is itself made of smoke and can pass freely with the smoke of fires.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Selective visibility", "description": "Visible only to those of pure heart, and according to some later commentary, to those soon to die.", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Bonfire residence", "description": "Lives within bonfires and other wood-fires, emerging with the rising smoke.", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["bonfires", "fireplaces and hearths", "summer mosquito-fires", "tobacco smoke (in later folklore)"],
+      "patterns": [
+        "Manifests within the smoke of wood-fires",
+        "Generally peaceful or neutral toward humans",
+        "Departs as the fire dies down"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Japanese folklore; the figure originates in Edo-period yōkai literature and is part of the contemporary national Japanese supernatural canon.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Edo-period Japan (broad)"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1781-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Toriyama Sekien, Konjaku Hyakki Shūi (c. 1781)"
+      },
+      "peak_activity_periods": [
+        { "period": "1781–1788", "description": "Edo-period popularization through Sekien's published yōkai compendia" },
+        { "period": "20th–21st centuries", "description": "Revival within modern Japanese yōkai studies, manga, anime, and games" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Edo-period Japanese yōkai tradition; Toriyama Sekien's compendia synthesized older folklore, classical literature, and original invention.",
+      "earliest_accounts": "First illustrated and named in Toriyama Sekien's 'Konjaku Hyakki Shūi' (c. 1781). The figure appears to be loosely inspired by a passage in the 14th-century 'Tsurezuregusa' of Yoshida Kenkō describing summer mosquito-fire smoke.",
+      "folklore_connections": "Part of the broader Edo-period imagination of yōkai associated with everyday objects and natural phenomena (smoke, dust, lanterns, hearths)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1781-01-01", "event": "Toriyama Sekien publishes 'Konjaku Hyakki Shūi' (今昔百鬼拾遺), introducing the Enenra in illustration and short text", "significance": "Founding documentation of the figure", "source": "Sekien (c. 1781)" },
+      { "date": "1788-01-01", "event": "Death of Toriyama Sekien (1712–1788), author of the four Hyakki series including the volume that introduced Enenra", "significance": "Closes the foundational period of the figure", "source": "Wikipedia: Toriyama Sekien" },
+      { "date": "2016-01-01", "event": "Matt Alt and Hiroko Yoda publish 'Japandemonium Illustrated: The Yokai Encyclopedias of Toriyama Sekien' (Dover, 2016, ISBN 978-0486800356), making Sekien's work, including Enenra, available in English translation", "significance": "Major English-language scholarly translation", "source": "Alt & Yoda (2016)" }
+    ],
+    "modern_era": "Enenra is featured in modern yōkai reference works (Yokai.com, the GeGeGe no Kitarō franchise, Touhou Project, and others) and is treated as part of the canonical Japanese yōkai bestiary in scholarly and popular sources."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1781", "latest": "Contemporary" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "enenra-evidence-sekien-1781",
+        "type": "illustrated yōkai compendium",
+        "name": "Konjaku Hyakki Shūi",
+        "date": "1781",
+        "description": "Toriyama Sekien's illustrated yōkai compendium, the third book of his Gazu Hyakki Yagyō tetralogy, in which the Enenra is introduced.",
+        "status": "verified",
+        "analysis": "Founding source; documents the figure's name, image, and brief description.",
+        "source": "Sekien, T. (c. 1781), Konjaku Hyakki Shūi"
+      },
+      {
+        "id": "enenra-evidence-alt-yoda-2016",
+        "type": "scholarly translation",
+        "name": "Japandemonium Illustrated",
+        "date": "2016",
+        "description": "Annotated English translation of Sekien's four yōkai compendia, including the Enenra entry.",
+        "status": "verified",
+        "analysis": "Standard contemporary English-language reference for Sekien's work.",
+        "source": "Alt, M. & Yoda, H. (2016), Japandemonium Illustrated"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Yōkai of smoke",
+        "description": "Within Edo-period and modern yōkai discourse, the Enenra is treated as a real, if intangible, spirit native to bonfire smoke.",
+        "proponents": ["Edo-period yōkai literature"],
+        "evidence_cited": ["Cohesive depiction across Sekien's work and later commentaries", "Continuity with Japanese animistic conceptions of fire and smoke"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Sekien literary invention",
+        "description": "The Enenra is most plausibly a literary invention by Toriyama Sekien, loosely inspired by a passage in 'Tsurezuregusa' rather than by a pre-existing widespread folk tradition.",
+        "proponents": ["Modern yōkai scholars (Alt & Yoda, 2016)"],
+        "evidence_cited": ["No known earlier attestation than Sekien's 1781 compendium", "Sekien's known practice of inventing yōkai based on classical phrases and word-play"]
+      },
+      {
+        "name": "Pareidolia in smoke",
+        "description": "Apparent humanoid shapes in rising smoke are explained by ordinary perceptual pareidolia, codified into a stable folkloric figure by Sekien's illustration.",
+        "proponents": ["Skeptical readers of yōkai folklore"],
+        "evidence_cited": ["Universality of human perception of figures in smoke and clouds", "Fluid and indeterminate forms in Sekien's illustration"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Edo-period yōkai literature (Toriyama Sekien)",
+        "Modern Japanese yōkai studies"
+      ],
+      "stories": [
+        "The figure's appearance in bonfire smoke as illustrated by Sekien",
+        "The notion that an enenra can only be seen by the pure of heart"
+      ],
+      "beliefs": "Treated as a generally neutral or peaceful spirit, embodying the ephemeral and impermanent (a Buddhist resonance with mujō)."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Konjaku Hyakki Shūi — Toriyama Sekien (c. 1781)",
+        "Japandemonium Illustrated: The Yokai Encyclopedias of Toriyama Sekien — Matt Alt & Hiroko Yoda (Dover, 2016)"
+      ],
+      "film_tv": [
+        "GeGeGe no Kitarō (Shigeru Mizuki manga and anime franchise) — uses Enenra-style yōkai"
+      ],
+      "games": [
+        "Touhou Project — features yōkai including Enenra-derived characters"
+      ],
+      "music": [],
+      "other": [
+        "Reference summaries on Yokai.com and other yōkai-database sites"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period ukiyo-e artist and writer (1712–1788)", "contribution": "Author of the Gazu Hyakki Yagyō tetralogy and the canonical originator of the Enenra figure", "period": "18th century" },
+      { "name": "Matt Alt", "affiliation": "Author / translator", "contribution": "Co-translator of Sekien's yōkai compendia (Japandemonium Illustrated, 2016)", "period": "2010s" },
+      { "name": "Hiroko Yoda", "affiliation": "Author / translator", "contribution": "Co-translator of Sekien's yōkai compendia (Japandemonium Illustrated, 2016)", "period": "2010s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Enenra is treated within the active academic field of Japanese yōkai studies (e.g. Michael Dylan Foster's 'Pandemonium and Parade' and 'The Book of Yōkai')."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-enenra",
+      "type": "website",
+      "title": "Enenra",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Enenra",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-konjaku-hyakki-shui",
+      "type": "website",
+      "title": "Konjaku Hyakki Shūi",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Konjaku_Hyakki_Sh%C5%ABi",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "yokai-com-enenra",
+      "type": "website",
+      "title": "Enenra",
+      "publication": "Yokai.com",
+      "url": "https://yokai.com/enenra/",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "alt-yoda-2016",
+      "type": "book",
+      "title": "Japandemonium Illustrated: The Yokai Encyclopedias of Toriyama Sekien",
+      "authors": ["Toriyama Sekien", "Matt Alt", "Hiroko Yoda"],
+      "publication": "Dover Publications",
+      "date": "2016",
+      "isbn": "978-0486800356"
+    }
+  ]
 }
